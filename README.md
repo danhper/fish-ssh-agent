@@ -16,6 +16,11 @@ fundle plugin 'tuvistavie/fish-ssh-agent'
 
 to your `config.fish`, reload your shell and run `fundle install`.
 
+### Using [Fisherman](fisherman.sh)
+
+    fisher install tuvistavie/fish-ssh-agent
+
+
 ### Manually
 
 Put `functions/__ssh_agent_start` your `~/.config/fish/functions` directory,
