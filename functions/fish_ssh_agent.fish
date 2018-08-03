@@ -1,4 +1,4 @@
-function fish-ssh-agent --description "Start ssh-agent if not started yet, or uses already started ssh-agent."
+function fish_ssh_agent --description "Start ssh-agent if not started yet, or uses already started ssh-agent."
    if test -z "$SSH_ENV"
       set -xg SSH_ENV $HOME/.ssh/environment
    end
