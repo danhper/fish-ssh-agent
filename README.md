@@ -23,5 +23,5 @@ to your `config.fish`, reload your shell and run `fundle install`.
 
 ### Manually
 
-Put `functions/*` your `~/.config/fish/functions` directory,
+Put `functions/*` in your `~/.config/fish/functions` directory,
 and source `init.fish` on startup.
