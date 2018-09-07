@@ -23,5 +23,5 @@ to your `config.fish`, reload your shell and run `fundle install`.
 
 ### Manually
 
-Put `functions/__ssh_agent_start` your `~/.config/fish/functions` directory,
+Put `functions/*` your `~/.config/fish/functions` directory,
 and source `init.fish` on startup.
