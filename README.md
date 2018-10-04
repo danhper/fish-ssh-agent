@@ -8,20 +8,12 @@ after the running ssh_agent should do the work for you.
 ## Usage
 
 ```fish
-fish-ssh-agent
+fish_ssh_agent
 ```
 
 
 ## Installation
 
 ```fish
-git clone https://.../fish-ssh-agent
-source fish-ssh-agent/install.fish
-```
-
-or
-
-```sh
-git clone https://.../fish-ssh-agent
-cp fish-ssh-agent/functions/*  ~/.config/fish/functions
+wget https://gitlab.com/kyb/fish-ssh-agent/raw/kyb/functions/fish_ssh_agent.fish -P ~/.config/fish/functions/
 ```
