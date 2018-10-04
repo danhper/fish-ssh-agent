@@ -15,5 +15,5 @@ fish_ssh_agent
 ## Installation
 
 ```fish
-wget https://gitlab.com/kyb/fish-ssh-agent/raw/kyb/functions/fish_ssh_agent.fish -P ~/.config/fish/functions/
+wget https://gitlab.com/kyb/fish_ssh_agent/raw/kyb/functions/fish_ssh_agent.fish -P ~/.config/fish/functions/
 ```
