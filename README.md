@@ -6,7 +6,7 @@ after the running ssh_agent should do the work for you.
 
 ## Installation
 
-### Using [fundle](https://github.com/tuvistavie/fundle) (recommended)
+### Using [fundle](https://github.com/tuvistavie/fundle)
 
 Add
 
