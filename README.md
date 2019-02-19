@@ -24,3 +24,8 @@ Add this line to `~/.ssh/config`
 AddKeysToAgent yes
 ```
 With option enabled keys used by ssh will be automatically added to ssh-agent. No need to call `ssh-add`.
+
+
+## Mirrors
+https://gitlab.com/kyb/fish_ssh_agent  
+https://github.com/ivakyb/fish_ssh_agent  
