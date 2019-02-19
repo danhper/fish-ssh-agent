@@ -17,3 +17,10 @@ fish_ssh_agent
 ```fish
 wget https://gitlab.com/kyb/fish_ssh_agent/raw/kyb/functions/fish_ssh_agent.fish -P ~/.config/fish/functions/
 ```
+
+## Useful note
+Add this line to `~/.ssh/config`
+```
+AddKeysToAgent yes
+```
+With option enabled keys used by ssh will be automatically added to ssh-agent. No need to call `ssh-add`.
