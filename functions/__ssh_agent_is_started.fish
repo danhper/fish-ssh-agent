@@ -3,7 +3,7 @@ function __ssh_agent_is_started -d "check if ssh agent is already started"
 		source $SSH_ENV > /dev/null
 	end
 
-	if test -z "$SSH_AGENT_PID"
+	if begin; test -z "$SSH_AGENT_PID"; and test -z "$SSH_CONNECTION"; end
 		return 1
 	end
 
