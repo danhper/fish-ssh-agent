@@ -19,10 +19,9 @@ to your `config.fish`, reload your shell and run `fundle install`.
 ### Using [Fisher](https://github.com/jorgebucaran/fisher)
 
 ```
-fisher add danhper/fish-ssh-agent
+fisher install danhper/fish-ssh-agent
 ```
 
 ### Manually
 
-Put `functions/*` in your `~/.config/fish/functions` directory,
-and source `init.fish` on startup.
+Copy `functions` and `conf.d` to your `$__fish_config_dir` directory. That's all.
