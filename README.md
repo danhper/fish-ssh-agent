@@ -24,4 +24,4 @@ fisher install danhper/fish-ssh-agent
 
 ### Manually
 
-Copy `functions` and `conf.d` to your `$__fish_config_dir` directory. That's all.
+Copy `functions` and `conf.d` to your `$__fish_config_dir` directory by executing `./install.fish`. That's all.
