@@ -2,7 +2,7 @@
 
 Utility functions to start your ssh agent when using fish shell.
 You will only need to run `ssh-add` and type your password once,
-after the running ssh_agent should do the work for you.
+after that, running `ssh-agent` should do the work for you.
 
 ## Installation
 
