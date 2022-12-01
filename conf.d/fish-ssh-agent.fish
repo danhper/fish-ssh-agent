@@ -1,7 +1,9 @@
-if test -z "$SSH_ENV"
-    set -xg SSH_ENV $HOME/.ssh/environment
-end
+if status is-interactive
+    if test -z "$SSH_ENV"
+        set -xg SSH_ENV $HOME/.ssh/environment
+    end
 
-if not __ssh_agent_is_started
-    __ssh_agent_start
+    if not __ssh_agent_is_started
+        __ssh_agent_start
+    end
 end
